@@ -7,13 +7,9 @@ range: 'Oct 2021 - Present'
 url: 'https://post.ch'
 ---
 
-<!--
-- best data for the goal
-- tools for overview and get this data
-- Self-Service: internal tool that facilitates the execution of external customer campaigns, based on the selection of the target groups requirements, returining the optimal solution for the customer budget
-- PostAd Manager: responsible for the data providing suggestion based on
-- SAnD
-- Tableau: overview of potential customers with demographic and affinity data
-- Lead a Dev/DataOps team
-- internal and external campaigns
--->
+- Developed internal Python libraries and tools to automate customer data analysis and campaign management
+- Architected and led development of Post Ad Manager tool for sales teams, optimizing multi-channel marketing campaigns
+- Implemented cloud-based data systems using AWS, Docker, and Kubernetes
+- Built event-driven systems with Kafka, PostgreSQL, and Redis for improved data processing
+- Led DevOps team and sprint planning while supporting ISO 27001 certification processes
+- Created automated solutions for direct mailing services and address management

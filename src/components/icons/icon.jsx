@@ -30,6 +30,14 @@ import {
   IconAngular,
   IconTableau,
   IconOracle,
+  IconRedis,
+  IconAws,
+  IconDocker,
+  IconFirebase,
+  IconGcp,
+  IconKafka,
+  IconJenkins,
+  IconRestAPI,
 } from '@components/icons';
 
 const Icon = ({ name }) => {
@@ -92,6 +100,22 @@ const Icon = ({ name }) => {
       return <IconTableau />;
     case 'Oracle DB':
       return <IconOracle />;
+    case 'Redis':
+      return <IconRedis />;
+    case 'AWS':
+      return <IconAws />;
+    case 'Docker':
+      return <IconDocker />;
+    case 'Firebase':
+      return <IconFirebase />;
+    case 'GCP':
+      return <IconGcp />;
+    case 'Kafka':
+      return <IconKafka />;
+    case 'REST API':
+      return <IconRestAPI />;
+    case 'Jenkins':
+      return <IconJenkins />;
     default:
       return <IconExternal />;
   }

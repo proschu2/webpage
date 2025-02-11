@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2'
 title: 'Shu'
 cover: './shu.png'
 github: 'https://github.com/proschu2/shu'
