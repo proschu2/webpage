@@ -6,10 +6,16 @@ import { Icon } from '@components/icons';
 
 const StyledSkillsSection = styled.section`
   max-width: 1000px;
-    @media (max-width: 768px) {
-      display: block;
-    }
+  @media (max-width: 768px) {
+    display: block;
   }
+`;
+
+const SectionTitle = styled.h3`
+  text-align: center;
+  color: var(--lightest-slate);
+  font-size: var(--fz-lg);
+  margin: 2rem 0 1rem;
 `;
 
 const Skill = styled.li`
@@ -59,37 +65,48 @@ const Skills = () => {
     }
   }, []);
 
-  const skills = [
-    'Python',
-    'R',
-    'TypeScript',
-    'GraphQL',
-    'React',
-    'Gatsby',
-    'Angular',
-    'Tableau',
-    'HTML',
-    'CSS',
-    'PostgreSQL',
-    'Oracle DB',
-    'Git',
-    'Elasticsearch',
-  ];
+  const skillCategories = {
+    'Data Science & Analytics': [
+      'Python',
+      'R',
+      'Tableau',
+      'Elasticsearch',
+      'PostgreSQL',
+      'Oracle DB',
+      'Redis',
+      'Kafka',
+    ],
+    'Web Development': [
+      'TypeScript',
+      'React',
+      'Gatsby',
+      'Angular',
+      'GraphQL',
+      'HTML',
+      'CSS',
+      'REST API',
+    ],
+    'DevOps & Infrastructure': ['AWS', 'GCP', 'Docker', 'Git', 'Jenkins', 'Firebase'],
+  };
 
   return (
     <StyledSkillsSection id="skills" ref={revealContainer}>
       <h2 className="numbered-heading">Skills</h2>
-      <SkillsContainer>
-        {skills &&
-          skills.map((s, k) => (
-            <Skill key={k}>
-              <SkillIcon>
-                <Icon name={s} />
-              </SkillIcon>
-              <SkillName>{s}</SkillName>
-            </Skill>
-          ))}
-      </SkillsContainer>
+      {Object.entries(skillCategories).map(([category, skills]) => (
+        <div key={category}>
+          <SectionTitle>{category}</SectionTitle>
+          <SkillsContainer>
+            {skills.map((s, k) => (
+              <Skill key={k}>
+                <SkillIcon>
+                  <Icon name={s} />
+                </SkillIcon>
+                <SkillName>{s}</SkillName>
+              </Skill>
+            ))}
+          </SkillsContainer>
+        </div>
+      ))}
     </StyledSkillsSection>
   );
 };
