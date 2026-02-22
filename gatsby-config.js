@@ -16,14 +16,9 @@ module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
-    {
-      resolve: `gatsby-plugin-sharp`,
-      options: {
-        icon: 'src/images/favicon.svg',
-      },
-    },
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sitemap`,
+    // `gatsby-plugin-sitemap`, // Temporarily disabled due to __PATH_PREFIX__ issue
     `gatsby-plugin-robots-txt`,
     /*     {
       resolve: `gatsby-plugin-manifest`,
@@ -167,5 +162,4 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: '',
 };
