@@ -14,7 +14,6 @@ module.exports = {
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     {
@@ -24,7 +23,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    // `gatsby-plugin-sitemap`,
+    // `gatsby-plugin-sitemap`, // Temporarily disabled due to __PATH_PREFIX__ issue
     `gatsby-plugin-robots-txt`,
     /*     {
       resolve: `gatsby-plugin-manifest`,
@@ -71,7 +70,8 @@ module.exports = {
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
-              tracedSVG: { color: config.colors.cyan },
+              // tracedSVG removed - deprecated in Gatsby 5
+              backgroundColor: config.colors.cyan,
             },
           },
           {
@@ -167,5 +167,4 @@ module.exports = {
       },
     },
   ],
-  pathPrefix: '',
 };
