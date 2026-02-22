@@ -70,7 +70,8 @@ module.exports = {
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
-              tracedSVG: { color: config.colors.cyan },
+              // tracedSVG removed - deprecated in Gatsby 5
+              backgroundColor: config.colors.cyan,
             },
           },
           {
