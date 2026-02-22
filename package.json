@@ -10,7 +10,7 @@
   "keywords": [
     "gatsby"
   ],
-  "packageManager": "pnpm@10",
+  "packageManager": "pnpm@10.11.1",
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
