@@ -3,7 +3,7 @@ date: '2021-10-01'
 title: 'Data Scientist'
 company: 'Swiss Post'
 location: 'Bern, BE 🇨🇭'
-range: 'Oct 2021 - Present'
+range: 'Oct 2021 - Dec 2025'
 url: 'https://post.ch'
 ---
 
