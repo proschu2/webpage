@@ -16,7 +16,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        icon: 'src/images/favicon.svg',
+      },
+    },
     `gatsby-transformer-sharp`,
     // `gatsby-plugin-sitemap`, // Temporarily disabled due to __PATH_PREFIX__ issue
     `gatsby-plugin-robots-txt`,
