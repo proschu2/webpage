@@ -59,9 +59,9 @@ const Hero = () => {
   const four = (
     <p>
       Technology enthusiast with a passion for data and programming
-      <br /> Currently a Data Scientist at{' '}
-      <a href="https://post.ch" target="_blank" rel="noreferrer">
-        Swiss Post
+      <br /> Currently a Senior Python Engineer at{' '}
+      <a href="https://unique.ai" target="_blank" rel="noreferrer">
+        Unique.ai
       </a>
     </p>
   );

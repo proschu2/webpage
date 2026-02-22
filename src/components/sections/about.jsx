@@ -111,8 +111,7 @@ const About = () => {
             <p>
               Hello there! My name is Sanzio Monti and I am a mathematician who focused his studies
               in statistics while keeping an eye open toward software development: a mix that led me
-              towards data science and now, as a Senior Python Engineer working on SDKs and toolkits
-              at Unique.ai.
+              towards data science during my studies at ETH Zurich.
             </p>
 
             <p>
@@ -121,14 +120,11 @@ const About = () => {
               <a href="https://www.thomsonreuters.com/">media conglomerate</a>, a{' '}
               <a href="https://www.takeda.com/">leading pharmaceutical company</a>, a{' '}
               <a href="https://mila.com/">Swiss start-up</a>, a{' '}
-              <a href="https://post.ch/">state-owned service company</a>, and now at{' '}
-              <a href="https://unique.ai">Unique.ai</a>, building an enterprise AI platform for
-              financial services.
+              <a href="https://post.ch/">state-owned service company</a>, and a{' '}
+              <a href="https://unique.ai">fintech scaleup</a>.
             </p>
             <p>
-              In my free time I like to keep myself updated about what happens in the world and on
-              technology development, to travel toward far-away destinations, and to snowboard on
-              the wonderful Swiss mountains.
+              In my free time I like to keep myself updated about global and tech developments, travel to far-away destinations, snowboard on the wonderful Swiss mountains, and sometimes you can find me dancing salsa or bouldering at the local gym.
             </p>
           </div>
         </StyledText>
