@@ -8,7 +8,9 @@
     "url": "https://github.com/proschu2/webpage"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "portfolio",
+    "personal-website"
   ],
   "packageManager": "pnpm@10.11.1",
   "license": "MIT",
